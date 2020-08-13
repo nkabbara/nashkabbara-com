@@ -1,5 +1,5 @@
 {
   "hooks": {
-     "post-commit": "firebase deploy"
+     "post-commit": "if npx git-branch-is master; then firebase deploy; fi"
   }
 }

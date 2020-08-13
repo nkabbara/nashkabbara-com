@@ -59,6 +59,7 @@
   },
   "devDependencies": {
     "babel-preset-gatsby": "^0.2.20",
+    "git-branch-is": "^4.0.0",
     "prettier": "1.18.2"
   },
   "keywords": [
